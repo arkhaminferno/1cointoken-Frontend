@@ -1,0 +1,75 @@
+.nav-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 50%;
+}
+
+.navbar-details {
+  width: 50%;
+}
+.nav > li > a {
+  padding: 5px;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: 600;
+}
+.nav-items {
+  text-align: right;
+}
+.participants-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-detail,
+.second-detail,
+.third-detail,
+.fourth-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.first-numbers,
+.second-numbers,
+.third-numbers,
+.fourth-numbers {
+  color: white;
+
+  letter-spacing: 0;
+  background-attachment: fixed;
+  white-space: nowrap;
+  font-family: "Neogrey Medium";
+  width: 50%;
+  text-align: center;
+}
+
+.first-description,
+.second-description,
+.third-description,
+.fourth-description {
+  text-align: left;
+  line-height: 14px;
+  font-size: small;
+  width: 50%;
+  text-align: start;
+  color: white;
+}
+
+.first-numbers {
+  color: #dd74c8;
+}
+
+.second-numbers {
+  color: #1ea4c1;
+}
+
+.third-numbers,
+.fourth-numbers {
+  color: #a2a1f2;
+}

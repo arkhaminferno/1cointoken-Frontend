@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body {
+  background: #262856;
+  background: -moz-linear-gradient(135deg, #262856 2%, #274f8a 20%);
+  background: -webkit-linear-gradient(135deg, #262856 2%, #274f8a 20%);
+  background: linear-gradient(135deg, #262856 2%, #274f8a 20%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262856', endColorstr='#274f8a',GradientType=1 );
+  font: 300 15px/28px "Montserrat", sans-serif;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0;
+  background-attachment: fixed;
+}
