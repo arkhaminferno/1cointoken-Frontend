@@ -73,3 +73,22 @@
 .fourth-numbers {
   color: #a2a1f2;
 }
+.panel1,
+.panel2,
+.panel3,
+.sub-panel4 {
+  border: 1px solid green;
+}
+
+.balance-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.eth-wallet-address,
+.smartcontract-address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
