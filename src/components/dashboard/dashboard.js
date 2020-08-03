@@ -1,16 +1,19 @@
 import React, { Component } from "react";
 import { Row, Col, Container, Button } from "reactstrap";
 import { Nav, NavItem, NavLink, Input } from "reactstrap";
-import { FaTelegram, FaEye } from "react-icons/fa";
+import { FaTelegram, FaEye, FaEthereum } from "react-icons/fa";
 import { FiGlobe } from "react-icons/fi";
 import { GrGroup } from "react-icons/gr";
+import { BsCircleFill } from "react-icons/bs";
+import { MdLoop, MdGroup } from "react-icons/md";
+
 import "./dashboard.css";
 export default class dashboard extends Component {
   render() {
     return (
       <Container>
         <Row className="nav-row">
-          <div className="logo"></div>
+          <div className="brand-logo">FORSAGE LOGO</div>
           <div className="navbar-details">
             <Row>
               <Nav className="nav-items">
@@ -263,15 +266,23 @@ export default class dashboard extends Component {
                   </div>
                 </div>
               </div>
+              <br />
               <div className="platforms-details">
                 <div className="eth-cost">
+                  <FaEthereum />
+                  {"  "}
                   THE COST OF PLATFORMS IN ETH (ETHEREUM)
                 </div>
-                <div className="reopen">NUMBER OF REOPENS</div>
+                <div className="reopen">
+                  {"   "}
+                  <MdLoop /> NUMBER OF REOPENS
+                </div>
               </div>
               <div className="partners-platform">
                 <div className="partners-platform-child">
-                  PARTNERS ON THE PLATFORM
+                  <MdGroup color="white" />
+                  {"  "}
+                  &nbsp; PARTNERS ON THE PLATFORM
                 </div>
               </div>
               <br />
@@ -301,15 +312,20 @@ export default class dashboard extends Component {
               <div className="overflow-details">
                 <div className="overflow-col1">
                   <div className="overflow-child-col-1">
-                    PARTNER INVITED BY YOU
+                    <BsCircleFill color="#00b0c2" /> PARTNER INVITED BY YOU
                   </div>
-                  <div className="overflow-child-col-2">OVERFLOW FROM UP</div>
+                  <div className="overflow-child-col-2">
+                    {" "}
+                    <BsCircleFill color="#0080cc" /> OVERFLOW FROM UP
+                  </div>
                 </div>
                 <div className="overflow-col2">
                   <div className="overflow-child-col-1">
-                    PARTNER INVITED BY YOU
+                    <BsCircleFill color="#92c9da" /> PARTNER INVITED BY YOU
                   </div>
-                  <div className="overflow-child-col-2">OVERFLOW FROM UP</div>
+                  <div className="overflow-child-col-2">
+                    <BsCircleFill color="#ac9bfb" /> OVERFLOW FROM UP
+                  </div>
                 </div>
               </div>
             </div>
