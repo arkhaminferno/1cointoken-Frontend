@@ -310,3 +310,80 @@
   color: #f7f7f7;
   font-weight: 600;
 }
+
+.x3-panel {
+  border: 1px solid purple;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.six-tree-x3-level-1,
+.six-tree-x3-level-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.x3-panel-child,
+.x4-panel-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.platforms-details {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.eth-cost,
+.reopen {
+  font-size: xx-small;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+
+.partners-platform {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: white;
+  font-size: xx-small;
+  justify-content: center;
+}
+
+.partners-platform-child {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.wf2-child {
+  display: flex;
+  flex-direction: column;
+}
+.overflow-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.overflow-col1,
+.overflow-col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: small;
+}

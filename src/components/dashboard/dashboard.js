@@ -80,7 +80,7 @@ export default class dashboard extends Component {
             </div>
           </div>
         </Row>
-
+        <br />
         <Row>
           <Col lg="4" mb="4" xs="3" className="wf1">
             <Row>
@@ -241,7 +241,78 @@ export default class dashboard extends Component {
           </Col>
 
           <Col lg="9" xs="9" className="wf2">
-            fun
+            <div className="wf2-child">
+              <div className="x3-panel">
+                <div className="x3-panel-child">
+                  <div className="logo"> Forsage logo</div>
+                  <div className="six-tree-x3-level-1">
+                    <div>tree1</div>
+                    <div>tree2</div>
+                    <div>tree3</div>
+                    <div>tree4</div>
+                    <div>tree5</div>
+                    <div>tree6</div>
+                  </div>
+                  <div className="six-tree-x3-level-2">
+                    <div>tree1</div>
+                    <div>tree2</div>
+                    <div>tree3</div>
+                    <div>tree4</div>
+                    <div>tree5</div>
+                    <div>tree6</div>
+                  </div>
+                </div>
+              </div>
+              <div className="platforms-details">
+                <div className="eth-cost">
+                  THE COST OF PLATFORMS IN ETH (ETHEREUM)
+                </div>
+                <div className="reopen">NUMBER OF REOPENS</div>
+              </div>
+              <div className="partners-platform">
+                <div className="partners-platform-child">
+                  PARTNERS ON THE PLATFORM
+                </div>
+              </div>
+              <br />
+              {/* X4 panel*/}
+              <div className="x3-panel">
+                <div className="x3-panel-child">
+                  <div className="logo"> Forsage logo</div>
+                  <div className="six-tree-x3-level-1">
+                    <div>tree1</div>
+                    <div>tree2</div>
+                    <div>tree3</div>
+                    <div>tree4</div>
+                    <div>tree5</div>
+                    <div>tree6</div>
+                  </div>
+                  <div className="six-tree-x3-level-2">
+                    <div>tree1</div>
+                    <div>tree2</div>
+                    <div>tree3</div>
+                    <div>tree4</div>
+                    <div>tree5</div>
+                    <div>tree6</div>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <div className="overflow-details">
+                <div className="overflow-col1">
+                  <div className="overflow-child-col-1">
+                    PARTNER INVITED BY YOU
+                  </div>
+                  <div className="overflow-child-col-2">OVERFLOW FROM UP</div>
+                </div>
+                <div className="overflow-col2">
+                  <div className="overflow-child-col-1">
+                    PARTNER INVITED BY YOU
+                  </div>
+                  <div className="overflow-child-col-2">OVERFLOW FROM UP</div>
+                </div>
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>
