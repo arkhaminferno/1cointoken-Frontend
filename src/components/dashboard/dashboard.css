@@ -1,3 +1,9 @@
+.wf1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .nav-row {
   display: flex;
   flex-direction: row;
@@ -84,6 +90,19 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 10%;
+}
+
+#balance-child-display {
+  font-size: 15pt;
+  color: white;
+  white-space: nowrap;
+  background-color: pink;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 4);
+  border-radius: 3px;
+
+  text-align: center;
+  position: relative;
 }
 
 .eth-wallet-address,
@@ -91,4 +110,117 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.sub-panel-1-logo-width {
+  width: 100%;
+  margin: 5%;
+}
+.sub-panel-1-width {
+  width: 100%;
+}
+
+.sub-panel-1-flex {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+.sub-panel-1-flex-child2 {
+  align-items: center;
+}
+
+.id- {
+  color: #eee;
+  font-weight: bold;
+  font-size: large;
+  text-align: start;
+}
+
+.bal-dollars {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  color: #ff6cc5;
+}
+
+.sub-panel3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-panel3-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5%;
+}
+
+.sub-panel3-child2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: pink;
+}
+
+.sb-child-panel {
+  margin: 10%;
+  border: 1px solid red;
+}
+
+.sub-child-panel3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#btn-eth {
+  position: relative;
+  left: 10px;
+  bottom: -10px;
+  background: lightblue;
+  padding: 3px 15px;
+  border-radius: 3px;
+  font-weight: 700;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 4);
+  font-size: 12pt;
+}
+
+.currency {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10%;
+}
+
+.notification-flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.nfication {
+  font-size: smaller;
+  color: white;
+  text-align: start;
+}
+
+.telegram {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.globe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.USD,
+.EUR,
+.RUB {
+  font-size: small;
+  color: white;
 }
