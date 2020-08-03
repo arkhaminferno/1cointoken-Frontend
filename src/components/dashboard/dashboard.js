@@ -183,30 +183,30 @@ export default class dashboard extends Component {
             </Row>
             <br />
             <div className="panel2">
-              <Col>
-                <Row>
-                  <Col>Affiliate</Col>
-                  <Col>
-                    <Row>
-                      <Col>0</Col>
-                      <Col>peoplelogo</Col>
-                    </Row>
-                  </Col>
-                </Row>
-                <Row>
-                  <Input>knl</Input>
-                </Row>
-                <Row>
-                  <Col></Col>
-                  <Col>
-                    <Button>35</Button>
-                  </Col>
-                </Row>
-              </Col>
+              <div className="pfs">
+                <div className="pf1">Affiliate Link</div>
+                <div className="pf2">
+                  0{" "}
+                  <div className="pf-col">
+                    <img
+                      width="40%"
+                      height="40%"
+                      src="/assets/partners_light.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <Input />
+              </div>
+              <div className="sub-child">
+                <Button id="btn-eth2">copy</Button>
+              </div>
             </div>
             <br />
             <div className="panel3">
-              <Col>
+              <Col className="eth-wallet">
                 <Row className="eth-wallet-address">ethereum wallet</Row>
                 <Row className="eth-wallet-address">0x1652s</Row>
               </Col>
@@ -214,16 +214,16 @@ export default class dashboard extends Component {
             <div className="sub-panel3">
               <Row>
                 <Col>
-                  <Button>etherscan</Button>
+                  <Button id="btn-etscan">etherscan</Button>
                 </Col>
                 <Col>
-                  <Button>COPY</Button>
+                  <Button id="btn-etscan2">COPY</Button>
                 </Col>
               </Row>
             </div>
             <br />
             <div className="panel4">
-              <Col>
+              <Col className="eth-wallet">
                 <Row className="smartcontract-address">contract address</Row>
                 <Row className="smartcontract-address">0x1652s</Row>
               </Col>
@@ -231,14 +231,15 @@ export default class dashboard extends Component {
             <div className="sub-panel4">
               <Row>
                 <Col>
-                  <Button>etherscan</Button>
+                  <Button id="btn-etscan">etherscan</Button>
                 </Col>
                 <Col>
-                  <Button>COPY</Button>
+                  <Button id="btn-etscan2">COPY</Button>
                 </Col>
               </Row>
             </div>
           </Col>
+
           <Col lg="9" xs="9" className="wf2">
             fun
           </Col>

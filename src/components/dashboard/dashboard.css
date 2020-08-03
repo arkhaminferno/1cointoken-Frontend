@@ -1,16 +1,16 @@
-.wf1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .nav-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
   box-sizing: border-box;
 }
-
+.wf1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
 .logo {
   width: 50%;
 }
@@ -82,7 +82,7 @@
 .panel1,
 .panel2,
 .panel3,
-.sub-panel4 {
+.panel4 {
   border: 1px solid green;
 }
 
@@ -98,7 +98,7 @@
   color: white;
   white-space: nowrap;
   background-color: pink;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 4);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
   border-radius: 3px;
 
   text-align: center;
@@ -110,6 +110,12 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: small;
+}
+.eth-wallet {
+  padding: 20%;
 }
 .sub-panel-1-logo-width {
   width: 100%;
@@ -169,21 +175,41 @@
   border: 1px solid red;
 }
 
+.panel2 {
+  display: flex;
+  flex-direction: column;
+  padding: 15%;
+}
 .sub-child-panel3 {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
+#btn-eth2 {
+  position: relative;
+  left: 60px;
+  bottom: 5px;
+  background: #00b0c2;
+  padding: 1px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 9pt;
+  line-height: 20px;
+  color: #f7f7f7;
+  font-weight: 600;
+
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+}
 #btn-eth {
   position: relative;
   left: 10px;
   bottom: -10px;
-  background: lightblue;
+  background: #00b0c2;
   padding: 3px 15px;
   border-radius: 3px;
   font-weight: 700;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 4);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
   font-size: 12pt;
 }
 
@@ -223,4 +249,64 @@
 .RUB {
   font-size: small;
   color: white;
+}
+
+.panel2-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.pf1 {
+  display: flex;
+  flex-direction: row;
+  font-size: x-small;
+  width: 50%;
+  color: rgba(255, 255, 255, 0.7);
+}
+.pfs {
+  display: flex;
+
+  flex-direction: row;
+  width: 100%;
+}
+.pf2 {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.pf-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#btn-etscan {
+  position: absolute;
+  bottom: -11px;
+  background: #00b0c2;
+  border-radius: 3px;
+  padding: 1px 10px;
+  display: inline-block;
+  box-shadow: 1px 2px 3px (0, 0, 0, 0.4);
+  cursor: pointer;
+  font-size: 9pt;
+  line-height: 20px;
+  color: #f7f7f7;
+  font-weight: 600;
+  right: -5px;
+}
+
+#btn-etscan2 {
+  position: absolute;
+  bottom: -11px;
+  background: #00b0c2;
+  border-radius: 3px;
+  padding: 1px 10px;
+  display: inline-block;
+  box-shadow: 1px 2px 3px (0, 0, 0, 0.4);
+  cursor: pointer;
+  font-size: 9pt;
+  line-height: 20px;
+  color: #f7f7f7;
+  font-weight: 600;
 }
