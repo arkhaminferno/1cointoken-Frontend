@@ -3,7 +3,7 @@ import { Row, Col, Container, Button } from "reactstrap";
 import { Nav, NavItem, NavLink, Input } from "reactstrap";
 import { FaTelegram, FaEye, FaEthereum } from "react-icons/fa";
 import { FiGlobe } from "react-icons/fi";
-import { GrGroup } from "react-icons/gr";
+
 import { BsCircleFill } from "react-icons/bs";
 import { MdLoop, MdGroup } from "react-icons/md";
 
@@ -90,19 +90,19 @@ export default class dashboard extends Component {
               <div className="holder-parent">
                 <div className="panel1">
                   <div className="sub-panel1">
-                    <Row className="sub-panel1-padding">
-                      <Col className="sub-panel-1-logo-width">
+                    <div className="sub-panel1-padding">
+                      <div className="sub-panel-1-logo-width">
                         <img
                           width="100%"
                           height="100%"
                           src="/assets/eth-logo.png"
                         />
-                      </Col>
-                      <Col className="sub-panel-1-width">
-                        <Row>
+                      </div>
+                      <div className="sub-panel-1-width">
+                        <Row className="-id">
                           <Col className="id-">ID 123</Col>
                         </Row>
-                        <Row>
+                        <div className="sbk">
                           <div className="sub-panel-1-flex">
                             <div className="sub-panel-1-flex-child"></div>
                             <div className="sub-panel-1-flex-child2">
@@ -114,13 +114,13 @@ export default class dashboard extends Component {
                               />
                             </div>
                           </div>
-                        </Row>
-                        <Row>
-                          <Col className="bal-dollars">$ 0</Col>
-                        </Row>
+                        </div>
+                        <div className="bal-">
+                          <div className="bal-dollars">$ 0</div>
+                        </div>
                         <Row></Row>
-                      </Col>
-                    </Row>
+                      </div>
+                    </div>
                   </div>
 
                   <div className="sub-panel2">
@@ -174,22 +174,22 @@ export default class dashboard extends Component {
                       </Row>
                     </div>
                   </div>
-
-                  <div className="notification-flex-row">
-                    <div className="telegram">
-                      <FaTelegram color="white" />
+                  <br />
+                  <div className="sub-panel-4">
+                    <div className="notification-flex-row">
+                      <div className="telegram">
+                        <FaTelegram color="white" />
+                      </div>
+                      <div className="nfication"> Enable notifications</div>
                     </div>
-                    <div className="nfication"> Enable notifications</div>
-                  </div>
-                  <div className="currency">
-                    <div>
-                      <Row className="globe">
+                    <div className="currency">
+                      <div>
                         <FiGlobe color="white" />
-                      </Row>
+                      </div>
+                      <div className="USD">USD</div>
+                      <div className="EUR"> EUR</div>
+                      <div className="RUB">RUB</div>
                     </div>
-                    <div className="USD">USD</div>
-                    <div className="EUR"> EUR</div>
-                    <div className="RUB">RUB</div>
                   </div>
                 </div>
               </div>
@@ -198,21 +198,27 @@ export default class dashboard extends Component {
                 <div className="holder">
                   <div className="panel2">
                     <div className="pfs">
-                      <div className="pf1">Affiliate Link</div>
+                      <div className="pf1">
+                        <div className="pf1-child-1">Affiliate Link</div>
+                      </div>
                       <div className="pf2">
-                        0{" "}
-                        <div className="pf-col">
-                          <img
-                            width="40%"
-                            height="40%"
-                            src="/assets/partners_light.svg"
-                          />
+                        <div className="pf2-child-2">
+                          <div className="pf-col1"></div>
+
+                          <div className="pf-col">
+                            0
+                            <img
+                              width="40%"
+                              height="40%"
+                              src="/assets/partners_light.svg"
+                            />
+                          </div>
                         </div>
                       </div>
                     </div>
 
-                    <div>
-                      <Input />
+                    <div className="affiliate-link-input">
+                      <Input id="affiliate-btn" />
                     </div>
                     <div className="sub-child">
                       <Button id="btn-eth2">copy</Button>
@@ -265,20 +271,16 @@ export default class dashboard extends Component {
                   <div className="x3-panel-child">
                     <div className="logo"> Forsage logo</div>
                     <div className="six-tree-x3-level-1">
-                      <div>tree1</div>
-                      <div>tree2</div>
-                      <div>tree3</div>
-                      <div>tree4</div>
-                      <div>tree5</div>
-                      <div>tree6</div>
+                      <div className="tree x3-1 ">tree 1</div>
+                      <div className="tree x3-2 ">tree2</div>
+                      <div className="tree x3-3 ">tree 3</div>
+                      <div className="tree x3-4">tree 4</div>
                     </div>
                     <div className="six-tree-x3-level-2">
-                      <div>tree1</div>
-                      <div>tree2</div>
-                      <div>tree3</div>
-                      <div>tree4</div>
-                      <div>tree5</div>
-                      <div>tree6</div>
+                      <div className="tree x4-1">tree1</div>
+                      <div className="tree x4-2">tree2</div>
+                      <div className="tree x4-3">tree3</div>
+                      <div className="tree x4-4">tree4</div>
                     </div>
                   </div>
                 </div>
@@ -307,20 +309,16 @@ export default class dashboard extends Component {
                   <div className="x3-panel-child">
                     <div className="logo"> Forsage logo</div>
                     <div className="six-tree-x3-level-1">
-                      <div>tree1</div>
-                      <div>tree2</div>
-                      <div>tree3</div>
-                      <div>tree4</div>
-                      <div>tree5</div>
-                      <div>tree6</div>
+                      <div className="tree">tree1</div>
+                      <div className="tree">tree2</div>
+                      <div className="tree">tree3</div>
+                      <div className="tree">tree4</div>
                     </div>
                     <div className="six-tree-x3-level-2">
-                      <div>tree1</div>
-                      <div>tree2</div>
-                      <div>tree3</div>
-                      <div>tree4</div>
-                      <div>tree5</div>
-                      <div>tree6</div>
+                      <div className="tree">tree1</div>
+                      <div className="tree">tree2</div>
+                      <div className="tree">tree3</div>
+                      <div className="tree">tree4</div>
                     </div>
                   </div>
                 </div>
