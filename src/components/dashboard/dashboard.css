@@ -19,6 +19,7 @@
   flex-basis: 65%;
   border-radius: 9px;
 }
+
 .brand-logo {
   width: 50%;
   border: 1px solid black;
@@ -579,7 +580,8 @@
   .wf2 {
     display: flex;
     flex-direction: column;
-    margin: 40px;
+    flex-basis: 100%;
+    margin-top: 20px;
   }
   .wf2-parent {
     display: flex;

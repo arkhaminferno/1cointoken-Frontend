@@ -272,7 +272,7 @@ export default class dashboard extends Component {
                     <div className="logo"> Forsage logo</div>
                     <br />
                     <div className="six-tree-x3-level-1">
-                      <div className="tree x3-1 ">tree 1</div>
+                      <div className="tree x3-1 ">tree 1tree 1tree 1tree 1</div>
                       <div className="tree x3-2 ">tree2</div>
                       <div className="tree x3-3 ">tree 3</div>
                       <div className="tree x3-4">tree 4</div>
