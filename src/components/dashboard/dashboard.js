@@ -270,18 +270,21 @@ export default class dashboard extends Component {
                 <div className="x3-panel">
                   <div className="x3-panel-child">
                     <div className="logo"> Forsage logo</div>
+                    <br />
                     <div className="six-tree-x3-level-1">
                       <div className="tree x3-1 ">tree 1</div>
                       <div className="tree x3-2 ">tree2</div>
                       <div className="tree x3-3 ">tree 3</div>
                       <div className="tree x3-4">tree 4</div>
                     </div>
+                    <br />
                     <div className="six-tree-x3-level-2">
                       <div className="tree x4-1">tree1</div>
                       <div className="tree x4-2">tree2</div>
                       <div className="tree x4-3">tree3</div>
                       <div className="tree x4-4">tree4</div>
                     </div>
+                    <br />
                   </div>
                 </div>
                 <br />
@@ -305,21 +308,24 @@ export default class dashboard extends Component {
                 </div>
                 <br />
                 {/* X4 panel*/}
-                <div className="x3-panel">
-                  <div className="x3-panel-child">
+                <div className="x4-panel">
+                  <div className="x4-panel-child">
                     <div className="logo"> Forsage logo</div>
-                    <div className="six-tree-x3-level-1">
+                    <br />
+                    <div className="six-tree-x4-level-1">
                       <div className="tree">tree1</div>
                       <div className="tree">tree2</div>
                       <div className="tree">tree3</div>
                       <div className="tree">tree4</div>
                     </div>
-                    <div className="six-tree-x3-level-2">
+                    <br />
+                    <div className="six-tree-x4-level-2">
                       <div className="tree">tree1</div>
                       <div className="tree">tree2</div>
                       <div className="tree">tree3</div>
                       <div className="tree">tree4</div>
                     </div>
+                    <br />
                   </div>
                 </div>
                 <br />

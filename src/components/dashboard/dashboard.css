@@ -17,6 +17,7 @@
 }
 .wf2 {
   flex-basis: 65%;
+  border-radius: 9px;
 }
 .brand-logo {
   width: 50%;
@@ -92,12 +93,6 @@
 .third-numbers,
 .fourth-numbers {
   color: #a2a1f2;
-}
-.panel1,
-.panel2,
-.panel3,
-.panel4 {
-  border: 1px solid green;
 }
 
 .balance-display {
@@ -218,7 +213,6 @@
 
 .sb-child-panel {
   margin: 10%;
-  border: 1px solid red;
 }
 
 .panel2 {
@@ -234,10 +228,10 @@
 
 #btn-eth2 {
   position: relative;
-  left: 60px;
-  bottom: 5px;
+  left: 85px;
+  bottom: 10px;
   background: #00b0c2;
-  padding: 1px 10px;
+  padding: 0px 10px;
   border-radius: 3px;
   cursor: pointer;
   font-size: 9pt;
@@ -252,7 +246,7 @@
   left: 10px;
   bottom: -10px;
   background: #00b0c2;
-  padding: 3px 15px;
+  padding: 0px 10px;
   border-radius: 3px;
   font-weight: 700;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
@@ -356,6 +350,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
+  color: rgba(255, 255, 255, 0.7);
   flex: 1;
 }
 
@@ -364,7 +359,7 @@
   bottom: -11px;
   background: #00b0c2;
   border-radius: 3px;
-  padding: 1px 10px;
+  padding: 0px 10px;
   display: inline-block;
   box-shadow: 1px 2px 3px (0, 0, 0, 0.4);
   cursor: pointer;
@@ -380,7 +375,7 @@
   bottom: -11px;
   background: #00b0c2;
   border-radius: 3px;
-  padding: 1px 10px;
+  padding: 0px 10px;
   display: inline-block;
   box-shadow: 1px 2px 3px (0, 0, 0, 0.4);
   cursor: pointer;
@@ -397,19 +392,15 @@
 }
 
 .six-tree-x3-level-1,
-.six-tree-x3-level-2 {
+.six-tree-x3-level-2,
+.six-tree-x4-level-1,
+.six-tree-x4-level-2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex: 1;
 }
 
-.tree {
-  border: 1px solid green;
-}
-.x3-panel {
-  border: 1px solid yellow;
-}
 .x3-panel-child,
 .x4-panel-child {
   display: flex;
@@ -488,6 +479,73 @@
   display: flex;
   flex-direction: column;
 }
+.x3-panel,
+.x3-panel-child,
+.x4-panel,
+.x4-panel-child {
+}
+
+.tree {
+  border: 1px solid #30a7e0;
+  border-top-color: rgb(48, 167, 224);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-right-color: rgb(48, 167, 224);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-bottom-color: rgb(48, 167, 224);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(48, 167, 224);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-radius: 9px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  box-shadow: inset 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.25);
+  height: 50px;
+  width: 50px;
+}
+.panel1,
+.panel2,
+.panel3,
+.panel4,
+.x3-panel,
+.x4-panel,
+.sb-child-panel {
+  position: relative;
+  border: 1px solid #30a7e0;
+  border-top-color: rgb(48, 167, 224);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-right-color: rgb(48, 167, 224);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-bottom-color: rgb(48, 167, 224);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(48, 167, 224);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-radius: 9px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  box-shadow: inset 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.25);
+}
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .wf-parent {
@@ -496,9 +554,16 @@
     justify-content: center;
   }
 
+  #btn-eth2 {
+    left: 50px;
+  }
+
   .holder {
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .hol {
     display: flex;
@@ -514,6 +579,7 @@
   .wf2 {
     display: flex;
     flex-direction: column;
+    margin: 40px;
   }
   .wf2-parent {
     display: flex;
